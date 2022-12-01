@@ -1,0 +1,23 @@
+﻿<Window x:Class="ClientTwo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientTwo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="800">
+    <Grid>
+        <TextBlock x:Name="User_in_header" HorizontalAlignment="Left" Margin="160,212,0,0" TextWrapping="Wrap" Text="Enter Python Code :" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.5,0.252"/>
+        <TextBox x:Name="UserInput" HorizontalAlignment="Center" Height="240" Margin="0,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" AcceptsReturn="True" AcceptsTab="True"/>
+        <Button x:Name="SubmitFromFileButton" Content="SUBMIT FROM FILE" HorizontalAlignment="Left" Margin="406,503,0,0" VerticalAlignment="Top" Width="153" Height="40" RenderTransformOrigin="1.408,-1.52" Click="SubmitFromFileButton_Click"/>
+        <Button x:Name="SubmitButton" Content="SUBMIT" HorizontalAlignment="Left" Margin="241,503,0,0" VerticalAlignment="Top" Width="153" Height="40" RenderTransformOrigin="1.408,-1.52" Click="SubmitButton_Click"/>
+        <TextBlock x:Name="completed_jobs_header" HorizontalAlignment="Left" Margin="160,78,0,0" TextWrapping="Wrap" Text="Number Of Jobs Completed :" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.5,0.252"/>
+        <TextBlock x:Name="client_status_header" HorizontalAlignment="Left" Margin="160,123,0,0" TextWrapping="Wrap" Text="Current Client Status : " VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.5,0.252"/>
+        <TextBox x:Name="completed_jobs" HorizontalAlignment="Left" Height="31" Margin="400,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="client_status" HorizontalAlignment="Left" Height="31" Margin="400,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBlock x:Name="client_header" HorizontalAlignment="Center" Margin="0,17,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="CLIENT TWO" VerticalAlignment="Top" FontWeight="Bold" FontSize="30" RenderTransformOrigin="0.5,0.252" Height="46" Width="318"/>
+        <TextBox x:Name="error_msg_diplay" HorizontalAlignment="Center" Height="31" Margin="0,568,0,0" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" FontWeight="Bold" FontSize="16" IsReadOnly="True"/>
+        <TextBlock x:Name="result_header" HorizontalAlignment="Left" Margin="160,169,0,0" TextWrapping="Wrap" Text="Result : " VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.5,0.252"/>
+        <TextBox x:Name="result_display" HorizontalAlignment="Left" Height="31" Margin="400,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+    </Grid>
+</Window>
