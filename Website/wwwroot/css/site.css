@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+table {
+    width: 50%;
+}
+
+th {
+    background: #f1f1f1;
+    font-weight: bold;
+    padding: 6px;
+}
+
+td {
+    background: #f9f9f9;
+    padding: 6px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
