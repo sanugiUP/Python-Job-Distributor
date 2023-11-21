@@ -1,2 +1,2 @@
-# Peer-To-PeerApplication
+# Project Description
 Completed &amp; Tested Code For A Fully Functioning Peer-To-Peer Application Using The .NET Framework. Note that this repository only contains the .xaml and .cs files. To run & test the application- a new .NET project in visual studio must be created and the code files in the repository can be copy pasted/replaced with the relavant files of the created project for running and testing. For an example, coding files in ClientOne and ClientTwo can be copy pasted to replace the .xaml and .cs files of a WPF App(.NET Framework) project.  
